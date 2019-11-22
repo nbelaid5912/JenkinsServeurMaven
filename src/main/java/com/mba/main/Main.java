@@ -10,7 +10,10 @@ package com.mba.main;
  * @author usager
  */
 public class Main {
-    public int add(int x, int y){
+    public static void main(int[] args){
+        int result = add(args[0],args[1]);
+    }
+    public static int add(int x, int y){
         return x + y ;
     }
         
